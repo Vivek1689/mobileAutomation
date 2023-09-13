@@ -1,3 +1,5 @@
+import basePackage.BaseClass;
+import io.appium.java_client.AppiumBy;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.options.UiAutomator2Options;
 import io.appium.java_client.service.local.AppiumDriverLocalService;
@@ -9,23 +11,19 @@ import java.io.File;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-public class TestClass {
+public class TestClass extends BaseClass {
 
     @Test
     public void appiumTest() throws MalformedURLException {
         //Starting Appium Server
-        AppiumDriverLocalService service = new AppiumServiceBuilder()
+        /*AppiumDriverLocalService service = new AppiumServiceBuilder()
                 .withAppiumJS(new File("/usr/local/lib/node_modules/appium/build/lib/main.js"))
-                .withIPAddress("http://127.0.0.1").usingPort(4723).build();
-        service.start();
+                .withIPAddress("http://127.0.0.1").usingPort(4723)
+                .usingDriverExecutable(new File("/usr/local/bin/node")).build();
+        service.start();*/
+        //service.stop();
+        androidDriver.findElement(AppiumBy.accessibilityId("Preference")).click();
 
-        //Configuring app in uiAutomator
-        UiAutomator2Options uiAutomator2Options = new UiAutomator2Options();
-        uiAutomator2Options.setDeviceName("VivekPixel");
-        uiAutomator2Options.setApp("/Users/VivekVitthalShetty/IdeaProjects/untitled/src/test/java/resources/ApiDemos-debug.apk");
-
-        AndroidDriver androidDriver = new AndroidDriver(new URL("http://127.0.0.1:4723"),uiAutomator2Options);
-        service.stop();
     }
 
 }
