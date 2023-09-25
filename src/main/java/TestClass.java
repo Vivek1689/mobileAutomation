@@ -22,7 +22,9 @@ public class TestClass extends BaseClass {
                 .usingDriverExecutable(new File("/usr/local/bin/node")).build();
         service.start();*/
         //service.stop();
-        androidDriver.findElement(AppiumBy.accessibilityId("Preference")).click();
+        androidDriver.findElement(AppiumBy.accessibilityId("App")).click();
+        androidDriver.findElement(AppiumBy.accessibilityId("Alert Dialogs")).click();
+        //androidDriver.findElement(AppiumBy.accessibilityId("Preference")).click();
 
     }
 
