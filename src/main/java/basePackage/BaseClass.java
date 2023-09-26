@@ -11,7 +11,7 @@ import java.net.URL;
 public class BaseClass {
 
     public AndroidDriver androidDriver;
-    @BeforeClass
+
     public void configureAppium() throws MalformedURLException {
         UiAutomator2Options uiAutomator2Options = new UiAutomator2Options();
         uiAutomator2Options.setDeviceName("VivekPixel");
@@ -22,7 +22,7 @@ public class BaseClass {
         androidDriver = new AndroidDriver(new URL("http://127.0.0.1:4723"),uiAutomator2Options);
     }
 
-    @AfterClass
+
     public void tearDown(){
         androidDriver.quit();
     }
