@@ -17,5 +17,22 @@ public class GenericActivities {
         params.put("direction", direction);
         params.put("element", ((RemoteWebElement) ele).getId());
         iosDriver.executeScript("mobile: swipe", params);
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public void iosClick(IOSDriver iosDriver, AppiumBy element){
+        iosDriver.findElement(element).click();
+    }
+
+    public void delay(int milliseconds){
+        try {
+            Thread.sleep(milliseconds);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
     }
 }

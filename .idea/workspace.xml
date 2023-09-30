@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fdc46e0-e862-4d9f-8d60-92b5c638f2d4" name="Changes" comment="Adding iOSBase class">
-      <change afterPath="$PROJECT_DIR$/src/main/java/genericActions/GenericActivities.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basePackage/TestClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basePackage/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basePackage/BaseClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basePackage/iOSBaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basePackage/iOSBaseClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basePackage/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basePackage/TestClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/genericActions/GenericActivities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/genericActions/GenericActivities.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +161,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695640954570</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Adding iOSBase class">
+      <option name="closed" value="true" />
+      <created>1695732795169</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1695732795169</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
