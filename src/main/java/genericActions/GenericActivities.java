@@ -35,4 +35,8 @@ public class GenericActivities {
             throw new RuntimeException(e);
         }
     }
+
+    public void enterText(IOSDriver iosDriver, AppiumBy element,String message){
+        iosDriver.findElement(element).sendKeys(message);
+    }
 }

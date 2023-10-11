@@ -37,16 +37,22 @@ public class TestClass extends iOSBaseClass {
         AppiumBy subtitle_secondscreen = (AppiumBy) AppiumBy.accessibilityId("Subtitle_label");
         AppiumBy subtitle_thirdscreen = (AppiumBy) AppiumBy.accessibilityId("Subtitle_label");
         AppiumBy skipForNowButton = (AppiumBy) AppiumBy.iOSClassChain("**/XCUIElementTypeStaticText[`label == 'Skip for Now'`]");
-        AppiumBy skipForNowButtonWhatNew = (AppiumBy) AppiumBy.accessibilityId("Skip for Now");
+        //AppiumBy skipForNowButtonWhatNew = (AppiumBy) AppiumBy.accessibilityId("Skip for Now");
         //AppiumBy upgradeButton = (AppiumBy) AppiumBy.accessibilityId("Upgrade");
-        AppiumBy layFlatPhotobook = (AppiumBy) AppiumBy.iOSClassChain("**/XCUIElementTypeCell[`name == 'Product_listing_cell'`][1]");
+        //AppiumBy layFlatPhotobook = (AppiumBy) AppiumBy.iOSClassChain("**/XCUIElementTypeCell[`name == 'Product_listing_cell'`][1]");
+        AppiumBy hardcoverPhotobook = (AppiumBy) AppiumBy.iOSClassChain("**/XCUIElementTypeCell[`name == 'Product_listing_cell'`][2]");
         AppiumBy photobook13x10 = (AppiumBy) AppiumBy.iOSClassChain("**/XCUIElementTypeCell[`name == 'Product_format_cell'`][1]");
         AppiumBy allowPhotosAccessButton = (AppiumBy) AppiumBy.accessibilityId("Allow Access to All Photos");
         AppiumBy albumsButton = (AppiumBy) AppiumBy.accessibilityId("Albums");
         AppiumBy test_Album = (AppiumBy) AppiumBy.iOSClassChain("**/XCUIElementTypeImage[`name == 'Album_image_view'`][2]");
         AppiumBy createBookButton = (AppiumBy) AppiumBy.accessibilityId("Create Book");
         AppiumBy portfolioWhiteTheme = (AppiumBy) AppiumBy.iOSClassChain("**/XCUIElementTypeImage[`name == 'tableSurface'`][1]");
+        AppiumBy checkoutButton = (AppiumBy) AppiumBy.iOSClassChain("**/XCUIElementTypeNavigationBar/XCUIElementTypeButton[2]");
+        AppiumBy preflightCheckoutButton = (AppiumBy) AppiumBy.accessibilityId("Checkout_button");
+        AppiumBy emailIDfield = (AppiumBy) AppiumBy.iOSClassChain("**/XCUIElementTypeTextField[`value == 'email@example.com'`]");
         String swipe_direction = "left";
+        String emailID = "motifmimeovivek@gmail.com";
+        String password = "Vivekdev@0987";
         activities.iosSwipe(iosDriver, subtitle_firstscreen, swipe_direction);
         activities.iosSwipe(iosDriver, subtitle_secondscreen, swipe_direction);
         activities.iosSwipe(iosDriver, subtitle_thirdscreen, swipe_direction);
@@ -54,7 +60,8 @@ public class TestClass extends iOSBaseClass {
         activities.delay(3000);
         //activities.iosClick(iosDriver,skipForNowButtonWhatNew);
         //activities.iosClick(iosDriver,upgradeButton);
-        activities.iosClick(iosDriver,layFlatPhotobook);
+        //activities.iosClick(iosDriver,layFlatPhotobook);
+        activities.iosClick(iosDriver,hardcoverPhotobook);
         activities.iosClick(iosDriver,photobook13x10);
         activities.delay(6000);
         activities.iosClick(iosDriver,allowPhotosAccessButton);
@@ -65,6 +72,10 @@ public class TestClass extends iOSBaseClass {
         activities.delay(5000);
         activities.iosClick(iosDriver,portfolioWhiteTheme);
         activities.delay(5000);
+        activities.iosClick(iosDriver,checkoutButton);
+        activities.delay(3000);
+        activities.iosClick(iosDriver,preflightCheckoutButton);
+        activities.enterText(iosDriver,emailIDfield,emailID);
 
     }
 

@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fdc46e0-e862-4d9f-8d60-92b5c638f2d4" name="Changes" comment="Adding iOSBase class">
+    <list default="true" id="8fdc46e0-e862-4d9f-8d60-92b5c638f2d4" name="Changes" comment="Added generic activities package">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/basePackage/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basePackage/TestClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/genericActions/GenericActivities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/genericActions/GenericActivities.java" afterDir="false" />
@@ -169,7 +170,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695732795169</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added generic activities package">
+      <option name="closed" value="true" />
+      <created>1696074988983</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1696074988983</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -177,6 +186,7 @@
     <MESSAGE value="appium configuration code" />
     <MESSAGE value="Adding Base class" />
     <MESSAGE value="Adding iOSBase class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding iOSBase class" />
+    <MESSAGE value="Added generic activities package" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added generic activities package" />
   </component>
 </project>
