@@ -4,7 +4,6 @@ public class pythagoreanTriplet {
     public static void main(String[] args){
         int[] numbers = {2,4,3,5,8,7,12,13};
         isPythagoreanTriplet(numbers);
-
     }
     public static void isPythagoreanTriplet(int[] numbers){
         for (int i=0;i<numbers.length;i++){
