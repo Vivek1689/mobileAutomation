@@ -12,7 +12,7 @@ public class pangram {
         else System.out.println("Entered string is not pangram");
 
     }
-    public static boolean isPangram(String inputString){
+    public static boolean isPangram (String inputString){
         if (inputString.length()<26)return false;
         inputString = inputString.toLowerCase();
         Boolean[] tracker = new Boolean[26];

@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fdc46e0-e862-4d9f-8d60-92b5c638f2d4" name="Changes" comment="Adding pangram program">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/numberPalindrome.java" afterDir="false" />
+    <list default="true" id="8fdc46e0-e862-4d9f-8d60-92b5c638f2d4" name="Changes" comment="Adding numberPalindrome program">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/streamsExamples/streamFilterExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/pangram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/pangram.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -248,7 +250,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698237702550</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Adding numberPalindrome program">
+      <option name="closed" value="true" />
+      <created>1698297550722</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1698297550722</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -258,6 +268,7 @@
     <MESSAGE value="Adding iOSBase class" />
     <MESSAGE value="Added generic activities package" />
     <MESSAGE value="Adding pangram program" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding pangram program" />
+    <MESSAGE value="Adding numberPalindrome program" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding numberPalindrome program" />
   </component>
 </project>
