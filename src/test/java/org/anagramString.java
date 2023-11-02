@@ -12,9 +12,9 @@ public class anagramString {
             Arrays.sort(firstWordArray);
             Arrays.sort(secondWordArray);
             if(Arrays.equals(firstWordArray,secondWordArray)){
-                System.out.println("Strings are anagram");
+                System.out.println(firstWord+"and"+secondWord+" are anagram");
             }else {
-                System.out.println("Strings are not anagram");
+                System.out.println(firstWord+"and"+secondWord+" are not anagram");
             }
         }
     }

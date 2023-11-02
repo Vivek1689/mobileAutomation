@@ -27,7 +27,9 @@ public class streamFilterExample {
         Integer[] numberArray = {3,2,2,7,9,1,9,5,7};
         List<Integer> numberList = Arrays.asList(numberArray);
         List<Integer> uniqueList = numberList.stream().distinct().collect(Collectors.toList());
-        uniqueList.stream().forEach(s-> System.out.println(s));
+        uniqueList.forEach(System.out::println);
+        List<Integer> sortedList=numberList.stream().distinct().sorted().collect(Collectors.toList());
+        sortedList.stream().forEach(s-> System.out.println(s));
 
     }
 }

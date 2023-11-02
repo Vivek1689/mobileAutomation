@@ -10,12 +10,12 @@ public class reverseString {
     }
 
     public static String reversedString(String inputString){
-        String reverseString = "";
+        StringBuilder reverseString = new StringBuilder();
         char ch;
         for(int i=0;i<=inputString.length()-1;i++){
             ch = inputString.charAt(i);
-            reverseString = ch+reverseString;
+            reverseString.insert(0, ch);
         }
-        return reverseString;
+        return reverseString.toString();
     }
 }
