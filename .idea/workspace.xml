@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fdc46e0-e862-4d9f-8d60-92b5c638f2d4" name="Changes" comment="Commiting General store apk">
-      <change afterPath="$PROJECT_DIR$/src/main/java/GeneralStore/GeneralTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/basePackage/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basePackage/BaseClass.java" afterDir="false" />
@@ -295,7 +294,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699099809542</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Commiting General store apk">
+      <option name="closed" value="true" />
+      <created>1699107047120</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1699107047120</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
