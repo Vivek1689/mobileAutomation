@@ -41,4 +41,17 @@ public class reverseString {
 8- Write Java code to identify a number as Palindrome?
 9- Write Java code to swap two numbers without using a temporary variable?
 10- Write a Java program to demonstrate string reverse with and without StringBuffer class?
+11- Find largest number from an array
+12- Array sorting - Implement sorting algorithm like bubble sort, merge sort or quick sort
+13- Binary search - Implement a binary search algorithm to find an element in a sorted array
+14- Find and print duplicate element in an array
+15- Reverse a singly linked list
+16- Matrix operations like addition, subtraction or transpose
+17- Create a stack data structure and implement basic operations like push pop
+18- Create a queue data structure and implement basic operations like enque deque
+19- Implement a class hierarchy with inheritance and demonstrate polymorphism
+20- Write code that demos the sue of try catch block to handle exceptions
+21- Read and write from and to file using java's file I/O capabilities
+22- Create a simple multithreaded program and demo thread synchronization
+23- Use lambda expressions to implement functional interfaces
 */
