@@ -1,23 +1,14 @@
 package basePackage;
 
-import basePackage.BaseClass;
-import basePackage.iOSBaseClass;
 import genericActions.GenericActivities;
 import io.appium.java_client.AppiumBy;
-import io.appium.java_client.android.AndroidDriver;
-import io.appium.java_client.android.options.UiAutomator2Options;
-import io.appium.java_client.service.local.AppiumDriverLocalService;
-import io.appium.java_client.service.local.AppiumServiceBuilder;
-import org.openqa.selenium.By;
-import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.Test;
 
-import java.io.File;
 import java.net.MalformedURLException;
-import java.net.URL;
 
 public class TestClass extends iOSBaseClass {
 
+    GenericActivities activities = new GenericActivities();
     @Test
     public void appiumTest() throws MalformedURLException {
         //Starting Appium Server
@@ -31,7 +22,7 @@ public class TestClass extends iOSBaseClass {
         //androidDriver.findElement(AppiumBy.accessibilityId("App")).click();
         //androidDriver.findElement(AppiumBy.accessibilityId("Alert Dialogs")).click();
         //androidDriver.findElement(AppiumBy.accessibilityId("Preference")).click();
-        GenericActivities activities = new GenericActivities();
+
         activities.delay(5000);
         AppiumBy subtitle_firstscreen = (AppiumBy) AppiumBy.accessibilityId("Subtitle_label");
         AppiumBy subtitle_secondscreen = (AppiumBy) AppiumBy.accessibilityId("Subtitle_label");

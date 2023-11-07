@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fdc46e0-e862-4d9f-8d60-92b5c638f2d4" name="Changes" comment="context handles">
-      <change afterPath="$PROJECT_DIR$/src/main/java/basePackage/TestContext.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basePackage/iOSBaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basePackage/iOSBaseClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GeneralStore/GeneralTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GeneralStore/GeneralTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basePackage/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/basePackage/BaseClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basePackage/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/basePackage/TestClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basePackage/TestContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/basePackage/TestContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basePackage/iOSBaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/basePackage/iOSBaseClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -318,7 +321,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699249330870</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="context handles">
+      <option name="closed" value="true" />
+      <created>1699262000666</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1699262000666</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
