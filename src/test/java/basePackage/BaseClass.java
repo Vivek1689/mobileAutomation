@@ -25,7 +25,6 @@ public class BaseClass {
         uiAutomator2Options.setApp("/Users/VivekVitthalShetty/IdeaProjects/untitled/src/test/java/resources/General-Store.apk");
         androidDriver = new AndroidDriver(new URL("http://127.0.0.1:4723"),uiAutomator2Options);
         //uiAutomator2Options.setApp("/Users/VivekVitthalShetty/IdeaProjects/untitled/src/test/java/resources/General-Store.apk");
-        androidDriver.manage().timeouts().implicitlyWait()
 
     }
 

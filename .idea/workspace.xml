@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fdc46e0-e862-4d9f-8d60-92b5c638f2d4" name="Changes" comment="Packages moved">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Screens/GeneralStoreLandingPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/genericActions/AndroidGenericActions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GeneralStore/GeneralTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GeneralStore/GeneralTest.java" afterDir="false" />
+    <list default="true" id="8fdc46e0-e862-4d9f-8d60-92b5c638f2d4" name="Changes" comment="Page factory">
+      <change beforePath="$PROJECT_DIR$/src/test/java/basePackage/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/basePackage/BaseClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -335,7 +332,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699342540146</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Page factory">
+      <option name="closed" value="true" />
+      <created>1699442871247</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1699442871247</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -352,6 +357,7 @@
     <MESSAGE value="Updated java programs" />
     <MESSAGE value="context handles" />
     <MESSAGE value="Packages moved" />
-    <option name="LAST_COMMIT_MESSAGE" value="Packages moved" />
+    <MESSAGE value="Page factory" />
+    <option name="LAST_COMMIT_MESSAGE" value="Page factory" />
   </component>
 </project>
