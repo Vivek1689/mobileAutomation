@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="General Store app Test" thread-count="1">
+        <classes>
+            <class name="GeneralStore.GeneralTest">
+            <methods>
+                <include name="generalAppTest"/>
+            </methods>
+            </class>
+            <class name="basePackage.TestClass">
+                <methods>
+            <include name="appiumTest"/>
+                </methods>
+            </class>
+            <class name="basePackage.TestContext">
+                <methods>
+                    <include name="contextTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

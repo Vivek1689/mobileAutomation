@@ -1,18 +1,20 @@
 package Screens;
 
+import genericActions.AndroidGenericActions;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import static genericActions.AndroidGenericActions.*;
 
 import java.security.PrivateKey;
 
-public class GeneralStoreLandingPage {
-    AndroidDriver driver;
+public class GeneralStoreLandingPage extends AndroidGenericActions {
+
     public GeneralStoreLandingPage(AndroidDriver driver) {
-        this.driver = driver;
+        super(driver);
         PageFactory.initElements(new AppiumFieldDecorator(driver), this);
     }
 

@@ -6,21 +6,25 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
 public class AndroidGenericActions {
+    public AndroidDriver driver;
+    public AndroidGenericActions(AndroidDriver driver) {
+        this.driver = driver;
+    }
 
-    public static void enterText(AndroidDriver driver, By element, String message){
+    public void enterText(AndroidDriver driver, By element, String message){
         driver.findElement(element).sendKeys(message);
     }
 
-    public static void enterTextHideKeyboard(AndroidDriver driver,By element,String message){
+    public void enterTextHideKeyboard(AndroidDriver driver,By element,String message){
         driver.findElement(element).sendKeys(message);
         driver.hideKeyboard();
     }
 
-    public static void clickElement(AndroidDriver driver, WebElement element){
+    public void clickElement(WebElement element){
         element.click();
     }
 
-    public static void scrollToText(AndroidDriver driver,String text){
-        driver.findElement(AppiumBy.androidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"\"+text+\""));
+    public void scrollToText(String text){
+        driver.findElement(AppiumBy.androidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\""+text+"\"));"));
     }
 }
