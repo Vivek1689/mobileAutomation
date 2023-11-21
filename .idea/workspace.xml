@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fdc46e0-e862-4d9f-8d60-92b5c638f2d4" name="Changes" comment="Added testng xml">
-      <change afterPath="$PROJECT_DIR$/src/test/java/basePackage/webBaseClass.java" afterDir="false" />
+    <list default="true" id="8fdc46e0-e862-4d9f-8d60-92b5c638f2d4" name="Changes" comment="Adding webbaseclass">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/basePackage/webBaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/basePackage/webBaseClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -361,7 +360,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699502677851</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Adding webbaseclass">
+      <option name="closed" value="true" />
+      <created>1700530064834</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1700530064834</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -381,6 +388,7 @@
     <MESSAGE value="Packages moved" />
     <MESSAGE value="Page factory" />
     <MESSAGE value="Added testng xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added testng xml" />
+    <MESSAGE value="Adding webbaseclass" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding webbaseclass" />
   </component>
 </project>
