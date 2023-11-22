@@ -1,5 +1,6 @@
 package basePackage;
 
+import genericActions.GenericActivities;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -13,6 +14,7 @@ import java.time.Duration;
 
 public class webBaseClass {
     public WebDriver driver;
+    GenericActivities activities = new GenericActivities();
 
     @BeforeClass
     public void driverInitialization(){
@@ -25,7 +27,7 @@ public class webBaseClass {
 
     @AfterClass
     public void tearDown(){
-      //driver.quit();
+      driver.quit();
     }
 
     @Test
@@ -45,7 +47,8 @@ public class webBaseClass {
       Thread.sleep(3000);
        driver.findElement(By.xpath("//input[@id='attribute_text_name']")).sendKeys("AutomationProject");
        driver.findElement(By.xpath("//input[@value='Create']")).click();
-       Thread.sleep(15000);
+       //Thread.sleep(15000);
+        activities.webWait(driver,By.id("designerFrame"),15);
        WebElement iframe = driver.findElement(By.id("designerFrame"));
        driver.switchTo().frame(iframe);
         Thread.sleep(3000);
@@ -64,7 +67,7 @@ public class webBaseClass {
         WebElement selectDropdown = driver.findElement(By.name("ship-country"));
         //selectDropdown.click();
         Select selectCountry = new Select(selectDropdown);
-        selectCountry.selectByValue("CH");
+        selectCountry.selectByValue("DE");
         driver.findElement(By.name("ship-city")).sendKeys("Test");
         driver.findElement(By.name("ship-state")).sendKeys("Test");
         driver.findElement(By.name("ship-zip")).sendKeys("12345");
