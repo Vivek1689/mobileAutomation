@@ -16,10 +16,12 @@ public class streamFilterExample {
         names.add("Arun");
         names.add("vivek");
         names.add("ahan");
+        //filter usage
         long count = names.stream().filter(name->name.toLowerCase().startsWith("a")).count();
         System.out.println(count);
         names.stream().filter(name->name.toLowerCase().startsWith("a")).filter(name->name.length()>4)
-                .forEach(name-> System.out.println(name));
+                .forEach(System.out::println);
+        //any match usage
         boolean flag=names.stream().anyMatch(name->name.equalsIgnoreCase("vivek"));
         Assert.assertTrue(flag);
 

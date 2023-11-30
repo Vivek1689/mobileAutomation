@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fdc46e0-e862-4d9f-8d60-92b5c638f2d4" name="Changes" comment="web e2e complete">
+    <list default="true" id="8fdc46e0-e862-4d9f-8d60-92b5c638f2d4" name="Changes" comment="Added wait method in GenericActivities">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Screens/websiteLandingPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/basePackage/webBaseClassPages.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/genericActions/GenericActivities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/genericActions/GenericActivities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/basePackage/webBaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/basePackage/webBaseClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/streamsExamples/streamFilterExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/streamsExamples/streamFilterExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +65,9 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/java/resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="basePackage" />
     </key>
   </component>
   <component name="RunManager" selected="TestNG.webBaseClass">
@@ -377,7 +383,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700561866028</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Added wait method in GenericActivities">
+      <option name="closed" value="true" />
+      <created>1700638105570</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1700638105570</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -399,6 +413,14 @@
     <MESSAGE value="Added testng xml" />
     <MESSAGE value="Adding webbaseclass" />
     <MESSAGE value="web e2e complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="web e2e complete" />
+    <MESSAGE value="Added wait method in GenericActivities" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added wait method in GenericActivities" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="TestNG">
+        <watch expression=" driver.findElement(By.xpath(&quot;//app-order-detail/ion-grid/ion-row[2]/ion-col&quot;)).getText();" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
