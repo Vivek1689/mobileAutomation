@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fdc46e0-e862-4d9f-8d60-92b5c638f2d4" name="Changes" comment="Changes in maven compiler">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/zeroesFirstString.java" afterDir="false" />
+    <list default="true" id="8fdc46e0-e862-4d9f-8d60-92b5c638f2d4" name="Changes" comment="zeroesFirstString">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/OccurenceOfNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/currentDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/minNumberInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/patternNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/patternNumber1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/anagramString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/anagramString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,10 +68,24 @@
       <recent name="$PROJECT_DIR$/src/test/java/resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org" />
       <recent name="basePackage" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.webBaseClass">
+  <component name="RunManager" selected="Application.currentDate">
+    <configuration name="currentDate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.currentDate" />
+      <module name="mobileAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="numberPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.numberPalindrome" />
       <module name="mobileAutomation" />
@@ -135,12 +154,14 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.currentDate" />
       <item itemvalue="Application.numberPalindrome" />
       <item itemvalue="Application.pangram" />
       <item itemvalue="TestNG.webBaseClass" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.currentDate" />
         <item itemvalue="Application.numberPalindrome" />
         <item itemvalue="Application.pangram" />
       </list>
@@ -395,7 +416,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701347309909</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="zeroesFirstString">
+      <option name="closed" value="true" />
+      <created>1702469161113</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1702469161113</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -419,13 +448,17 @@
     <MESSAGE value="web e2e complete" />
     <MESSAGE value="Added wait method in GenericActivities" />
     <MESSAGE value="Changes in maven compiler" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes in maven compiler" />
+    <MESSAGE value="zeroesFirstString" />
+    <option name="LAST_COMMIT_MESSAGE" value="zeroesFirstString" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
       <configuration name="TestNG">
         <watch expression=" driver.findElement(By.xpath(&quot;//app-order-detail/ion-grid/ion-row[2]/ion-col&quot;)).getText();" language="JAVA" />
       </configuration>
+      <inline-watch fileUrl="file://$PROJECT_DIR$/src/test/java/org/currentDate.java" line="12">
+        <watch expression="d.toString().split(&quot;15&quot;)" language="JAVA" />
+      </inline-watch>
     </watches-manager>
   </component>
 </project>
