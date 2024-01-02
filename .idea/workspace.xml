@@ -4,14 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fdc46e0-e862-4d9f-8d60-92b5c638f2d4" name="Changes" comment="zeroesFirstString">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/OccurenceOfNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/currentDate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/minNumberInArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/patternNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/patternNumber1.java" afterDir="false" />
+    <list default="true" id="8fdc46e0-e862-4d9f-8d60-92b5c638f2d4" name="Changes" comment="Adding practice programs">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/arrayMatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/characterOccurence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/fibonacciSeries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/maxDiffArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/multiplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/sortingArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/starPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/stringTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/sumOfElementsArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/swapNumbers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/anagramString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/anagramString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/primeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/primeNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -424,8 +429,27 @@
       <option name="project" value="LOCAL" />
       <updated>1702469161113</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Adding practice programs">
+      <option name="closed" value="true" />
+      <created>1702719625722</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1702719625722</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -449,7 +473,8 @@
     <MESSAGE value="Added wait method in GenericActivities" />
     <MESSAGE value="Changes in maven compiler" />
     <MESSAGE value="zeroesFirstString" />
-    <option name="LAST_COMMIT_MESSAGE" value="zeroesFirstString" />
+    <MESSAGE value="Adding practice programs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding practice programs" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
