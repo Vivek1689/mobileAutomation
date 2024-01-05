@@ -17,8 +17,7 @@ public class anagramString {
             Arrays.sort(firstWordArray);
             Arrays.sort(secondWordArray);
             if(Arrays.equals(firstWordArray,secondWordArray)){
-                isAnagram = true;
-                return isAnagram;
+                return true;
             }
         }
         return isAnagram;
